@@ -1,0 +1,44 @@
+footer {
+    background-color: #004643; /* Dark teal background */
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-signup {
+    margin-bottom: 20px;
+}
+
+    .newsletter-signup input[type="email"],
+    .newsletter-signup button {
+        padding: 10px;
+        margin-left: 5px;
+    }
+
+.footer-columns {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+    .footer-column li a:hover {
+        opacity: 1;
+    }
